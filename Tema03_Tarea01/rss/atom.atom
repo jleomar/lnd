@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="es-es">
+    <title type="text">Tema 1. Tarea 3</title>
+    <updated>2017-05-30T18:00:00-01:00</updated>
+    <link rel="self" type="application/atom+xml" href="http://www.juanlm.hol.es/Tema03_Tarea01/rss/atom.atom"/>
+    <link rel="alternate" type="text/html" href="http://www.juanlm.hol.es/Tema03_Tarea01/rss/atom.atom"/>
+    <id>http://www.juanlm.hol.es/Tema03_Tarea01/rss/atom.atom</id>
+    <author>
+        <name>Juan León</name>
+    </author>
+    <entry>
+        <title>Tiempo en La Laguna</title>
+        <link rel="alternate" type="text/html" href="http://www.eltiempo24.es/San_Cristobal_de_La_Laguna-ES0ST0033.html"/>
+        <updated>2017-05-30T19:47:00Z</updated>
+        <id>http://www.eltiempo24.es/San_Cristobal_de_La_Laguna-ES0ST0033.html</id>
+        <summary>Presivión meteorológica del municipio de La Laguna.</summary>
+        <author>
+			<name>Juan León</name>
+		</author>
+    </entry>
+</feed>
