@@ -1,0 +1,94 @@
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<title>Ejercicio 4. Reserva de hotel.</title> 
+</head>
+<body>
+	<h2>MI HOTEL - Reserva on-line</h2>	
+	<br>
+	<form>
+		<label for="Nombre" style="width: 100px; float: left; margin-left: 10px"> Nombre: </label>
+			<input type="text" placeholder="nombre" name="Nombre" id="Nombre"><br>	
+		<label for="Apellidos" style="width: 100; float: left; margin-left: 10px"> Apellidos: </label>
+			<input type="text" placeholder="apellidos" name="Apellidos" id="Apellidos"><br>	
+		<label for="Teléfono" style="width: 100px; float: left; margin-left: 10px"> Teléfono: </label>
+			<input type="text" placeholder="telefono" name="Teléfono" id="Telefono"><br>	
+		<label for="E-mail" style="width: 100px; float: left; margin-left: 10px"> E-mail: </label>
+			<input type="text" placeholder="email" name="Email" id="Email"><br><br>	
+		<label for="NumeroNoches" style="width: 150px; float: left; margin-left: 10px"> Número de noches: </label>
+			<input type="text" placeholder="noches" name="Noches" maxlength="3" size="4" id="Noches"><br>	
+		<br>
+		<label for="FechaEntrada" style="width: 150px; float: left; margin-left: 10px"> Fecha de entrada: </label>
+		<select name="dia">
+			<option value="null">dia</option>
+			<option value="1">1</option>
+			<option value="2">2</option>
+			<option value="3">3</option>
+			<option value="4">4</option>
+			<option value="5">5</option>
+			<option value="6">6</option>
+			<option value="7">7</option>
+			<option value="8">8</option>
+			<option value="9">9</option>
+			<option value="10">10</option>
+			<option value="11">11</option>
+			<option value="12">12</option>
+			<option value="13">13</option>
+			<option value="14">14</option>
+			<option value="15">15</option>
+			<option value="16">16</option>
+			<option value="17">17</option>
+			<option value="18">18</option>
+			<option value="19">19</option>
+			<option value="20">20</option>
+			<option value="21">21</option>
+			<option value="22">22</option>
+			<option value="23">23</option>
+			<option value="24">24</option>
+			<option value="25">25</option>
+			<option value="26">26</option>
+			<option value="27">27</option>
+			<option value="28">28</option>
+			<option value="29">29</option>
+			<option value="30">30</option>
+			<option value="31">31</option>
+		</select>
+		<select name="mes">
+			<option value="null">mes</option>
+			<option value="Enero">Enero</option>
+			<option value="Febrero">Febrero</option>
+			<option value="Marzo">Marzo</option>
+			<option value="Abril">Abril</option>
+			<option value="Mayo">Mayo</option>
+			<option value="Junio">Junio</option>
+			<option value="Julio">Julio</option>
+			<option value="Agosto">Agosto</option>
+			<option value="Septiembre">Septiembre</option>
+			<option value="Octubre">Octubre</option>
+			<option value="Noviembre">Noviembre</option>
+			<option value="Diciembre">Diciembre</option>
+		</select>	
+		<br><br>
+		<div id="habitacion" style="width:150px; float:left; margin-left: 10px">
+		Tipo de habitación: <br>
+			<input type="radio" name="habitacion" value="simple">Simple<br>
+			<input type="radio" name="habitacion" value="doble">Doble<br>
+			<input type="radio" name="habitacion" value="matrimonio">Matrimonio
+		</div>
+		<br><br><br>
+		<div id="extra" style="width:150px; margin-left: 10px">
+		Extras:<br>
+			<input type="checkbox">Desayuno<br>
+			<input type="checkbox">Comida<br>
+			<input type="checkbox">Cena<br>
+			<input type="checkbox">Cama supletoria<br>
+		</div>
+		<br>
+		<label for="Comentario" style="width: 100px; float: left; margin-left: 10px"> Comentario: </label>
+		<textarea rows="2" cols="50"></textarea><br/><br/>
+		<input type="reset" name="reset" value="Limpiar" style="margin-left: 80px">
+		<method="post" action="mailto:reservas@mihotel.com">		
+		<input type="submit" value="Enviar">
+	</form>
+</body>
+</html>
