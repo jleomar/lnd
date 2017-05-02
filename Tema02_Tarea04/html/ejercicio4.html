@@ -1,0 +1,72 @@
+<!DOCTYPE html >
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Tema 2. Tarea 4. Ejercicio 3. Lanzamiento de dado</title>
+	<link rel="stylesheet" href="../css/estilo4.css">	
+	<script src="../js/ejercicio4.js"></script>	
+</head>
+<body>
+	<h1>Venta de vehículo</h1>
+	<table>
+		<caption>Detalle de la compra</caption>			<tr id="titulo"> 
+			<td>Descripción</td> 
+			<td>Importe</td> 
+		</tr>
+		<tr>
+			<td id="textoimp">PRECIO BASE..........</td>
+			<td id="precio"><input id="impbase" type="text" readonly="readonly" value="12000"/></td>
+		</tr>
+		<tr>
+			<td>Motor:      
+				Gasolina <input type="radio" name="motor" onclick="plusMotor(0)"/>
+				Diesel (+1.500 €) <input type="radio" name="motor" onclick="plusMotor(1500)"/>
+				Híbrido (+3.000 €) <input type="radio" name="motor" onclick="plusMotor(3000)"/></td>
+			<td id="precio"><input id="impmotor" type="text" readonly="readonly" value="0"/></td>
+		</tr> 
+		<tr>
+			<td>Modelo:
+				3 puertas (Sólo para gasolina) (-2.000€) <input type="radio" name="modelo" id="modelo3p" onclick="plusModelo(-2000)"/>
+				5 puertas, familiar (+1.500€) <input type="radio" name="modelo" id="modelo5p"  onclick="plusModelo(1500)"/></td>
+			<td id="precio"><input id="impmodelo" type="text" readonly="readonly" value="0"/></td>
+		</tr>
+		<tr>
+			<td>Color: 
+				Rojo <input type="radio" name="color" onclick="plusColor(0)"/>
+				Verde <input type="radio" name="color" onclick="plusColor(0)"/>
+				Naranja <input type="radio" name="color" onclick="plusColor(0)"/>
+				Blanco (-500€) <input type="radio" name="color" onclick="plusColor(-500)"/>
+				Negro (-600€) <input type="radio" name="color" onclick="plusColor(-600)"/></td> 
+			<td id="precio"><input id="impcolor" type="text" readonly="readonly" value="0"/></td>
+		</tr>
+		<tr>
+			<td>Pintura metalizada: +750€, disponible sólo para rojo, verde y naranja. <input type="radio" name="pintura" id="metalizada" onclick="plusPintura(750)"/></td>
+			<td id="precio"><input id="imppintura" type="text" readonly="readonly" value="0"/></td>
+		</tr>
+		<tr>
+			<td>Llanta de aleación: +200€. <input type="radio" name="llanta" id="llanta1" onclick="plusLlanta(200)"/>
+				Sin llantas de aleación <input type="radio" name="llanta" id="llanta2" onclick="plusLlanta(0)"/></td>
+			<td id="precio"><input id="impllanta"  type="text" readonly="readonly" value="0"/></td>
+		</tr>
+		<tr>
+			<td>Climatizador: +800€. <input type="radio" name="climatizador" id="clima1" onclick="plusClimatizador(800)"/>
+				Sin climatizador <input type="radio" name="climatizador" id ="clima2" onclick="plusClimatizador(0)"/></td>
+			<td id="precio"><input id="impclimatizador" type="text" readonly="readonly" value="0"/></td>
+		</tr>
+		<tr>
+			<td>GPS: +340€. <input type="radio" name="gps" id="gps1" onclick="plusGps(340)"/>
+				Sin GPS <input type="radio" name="gps" id="gps2" onclick="plusGps(0)"/></td>
+			<td id="precio"><input id="impgps" type="text" readonly="readonly" value="0"/></td>
+		</tr>
+		<tr>
+			<td>Sistema On-Connected: +800€ (sólo disponible para el modelo familiar). <input type="radio" name="onCon" id="sistemaon1" onclick="plusOn(800)"/>
+				Sin Sistema <input type="radio" name="onCon" id="sistemaon2" onclick="plusOn(0)"/></td>
+			<td id="precio"><input id="impsistema" type="text" readonly="readonly" value="0"/></td>
+		</tr>
+		<tr>
+			<td id="textoimp">PRECIO FINAL..........</td>
+			<td id="precio"><input id="impfinal" type="text" readonly="readonly" value="12000"/></td>
+		</tr>
+	</table>
+</body>
+</html>
