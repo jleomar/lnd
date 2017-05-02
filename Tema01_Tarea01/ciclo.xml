@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cfgs>
+	<ciclo>
+		<nombre>"Desarrolo de Aplicaciones Multiplataforma (DAM)</nombre>
+		<modulo>
+			<nombre>"Lenguaje de Marcas y Sistemas de Festión de la Informacion" </nombre>
+			<duración>"4 horas semanales"</duración>
+			<asistencia>"Obligatoria"</asistencia>
+			<fecha_inicio>
+				<dia>15</dia>
+				<mes>Septiembre</mes>
+				<anno>2010</anno>
+			</fecha_inicio>
+			<fecha_fin>
+				<dia>30</dia>
+				<mes>Junio</mes>
+				<anno>2011</anno>
+			</fecha_fin>
+			<alumnos>
+				<alumno>
+					<nombre>Ana</nombre>
+					<apellido1>Fernandez</apellido1>
+					<apellido2>Gutiérrez</apellido2>
+					<nif>16965696L</nif>
+					<telefono>789654321</telefono>
+					<email>ana.fdezgtrez@hotmail.com</email>
+					<direccion>
+						<calle>C/. El Percebe</calle>
+						<numero>13</numero>
+						<poblacion>Santander</poblacion>
+						<cpostal>39302</cpostal>
+					</direccion>
+					<asistencia/>
+					<notas/>
+				</alumno>	
+				<alumno>
+					<nombre>Pepito</nombre>
+					<apellido1>Grillo</apellido1>
+					<apellido2/>
+					<nif>98765432H</nif>
+					<telefono>656566555</telefono>
+					<email>yhyh@yahoo.com</email>
+					<direccion>
+						<calle>Avd. El Pez</calle>
+						<numero>5</numero>
+						<poblacion>Suances</poblacion>
+						<cpostal>39401</cpostal>
+					</direccion>
+					<asistencia/>
+					<nota>Apto</nota>
+				</alumno>
+			</alumnos>
+		</modulo>
+	</ciclo>
+</cfgs>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<agenda>        
+	<persona>
+		<nombre>Juan</nombre>
+		<apellidos>Leon</apellidos>
+		<tlfno_casa>922200201</tlfno_casa>
+		<tlfno_movil>600100201</tlfno_movil>
+		<tlfno_trabajo>922300201</tlfno_trabajo>	
+	</persona>
+	<persona>
+		<persona nombre="Luis" />
+		<persona apellidos="Cañas"/>
+		<persona tlfno_casa="922200202"/>
+		<persona tlfno_movil="600100202"/>
+		<persona tlfno_trabajo="922300202"/>	
+	</persona>
+	<persona>
+		<persona nombre = "Simon" apellidos ="Light" tlfno_casa="922200203" tlfno_movil="600100203" tlfno_trabajo="922300203" />
+	</persona> 
+</agenda>
