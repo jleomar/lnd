@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<rss version = "2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Tema 1. Tarea 3</title>
+        <link>http://www.juanlm.hol.es/Tema03_Tarea01/index.html</link>
+        <description>Actividad del tema</description>
+        <language>es</language>
+        <item>
+            <title>Tiempo en La Laguna</title>
+            <description>Tiempo en San Cristóbal de La Laguna.</description>
+            <link>http://www.eltiempo24.es/San_Cristobal_de_La_Laguna-ES0ST0033.html</link>
+			<guid>http://www.eltiempo24.es/San_Cristobal_de_La_Laguna-ES0ST0033.html</guid>
+        </item>
+    </channel>
+</rss>
