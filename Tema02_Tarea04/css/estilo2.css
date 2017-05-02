@@ -1,0 +1,27 @@
+* { 
+	margin: auto; 
+	padding: 0; 
+	text-align: center }
+#portafolio { 
+	float: left; 
+	width: 25%;  
+	margin: 1%;	}
+#portafolio img { 
+	width: 25%; 
+	margin: 1%; 
+	cursor: pointer; }
+	cursor: pointer; }*/
+#principal { 
+	float: left; 
+	width: 75%; }
+#visor { 
+	width: 73%; 
+	margin: 1% 26%; }
+#visor img { 
+	width: 40%; }	
+#menu {
+	width: 100%; }
+#menu img {
+	margin: 5px; 
+	cursor: pointer; }
+	

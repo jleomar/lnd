@@ -1,0 +1,22 @@
+h1 {
+	text-align: center; }
+table {
+	margin: 20px auto;
+	width: 90%;
+	border:1px solid #000; }
+tr {
+	border:1px solid #000;
+	margin: 10%;	
+	background-color: white; }
+#titulo {
+	border:1px solid #000;
+	background-color: lightblue;
+	text-align: center; }
+#precio {
+	text-align: center; }
+/*//#numero {
+//	text-align: right; }*/
+#impbase, #impmotor, #impmodelo, #impcolor, #imppintura, #impllanta, #impclimatizador, #impgps, #impsistema, #impfinal {
+	text-align: right; }
+#textoimp {
+	text-align: right; }

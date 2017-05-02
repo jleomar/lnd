@@ -1,0 +1,57 @@
+<!DOCTYPE html >
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+	<title>Tema 2. Tarea 4. Ejercicio 2. FotoSlider</title>
+	<link rel="stylesheet" href="../css/estilo2.css">	
+	<script src="../js/ejercicio2.js"></script>	
+</head>
+<body>
+	<h1>Monedas commemorativas de 2 euros emitidas por España</h1>
+	<nav>
+		<div id="portafolio">
+			<img src='../imagenes/ejercicio2/España1.jpg' 
+				alt='2005. IV centenario de la primera edición de la obra de Miguel de Cervantes El ingenioso hidalgo don Quijote de la Mancha.' name='moneda1' onclick="mifoto(1)"/>
+			<img src='../imagenes/ejercicio2/España2.jpg' 
+				alt='2007. Quincuagésimo aniversario del Tratado de Roma.' name='moneda2' onclick="mifoto(2)"/>
+			<img src='../imagenes/ejercicio2/España3.jpg' 
+				alt='2009. Décimo aniversario de la Unión Económica y Monetaria.' name='moneda3' onclick="mifoto(3)"/>
+			<img src='../imagenes/ejercicio2/España4.jpg' 
+				alt='2010. Centro histórico de Córdoba, serie dedicada al patrimonio mundial de la UNESCO.' name='moneda4' onclick="mifoto(4)"/>
+			<img src='../imagenes/ejercicio2/España5.jpg' 
+				alt='2011. Patio de los Leones, Granada; serie dedicada al patrimonio mundial de la UNESCO.' name='moneda5' onclick="mifoto(5)"/>
+			<img src='../imagenes/ejercicio2/España6.jpg' 
+				alt='2012. Diez años de billetes y monedas en euros.' name='moneda6' onclick="mifoto(6)"/>
+			<img src='../imagenes/ejercicio2/España7.jpg' 
+				alt='2012. Catedral de Burgos - serie Patrimonio Mundial de la UNESCO.' name='moneda7' onclick="mifoto(7)"/>
+			<img src='../imagenes/ejercicio2/España8.jpg'
+				alt='2013. Monasterio de San Lorenzo de El Escorial - serie dedicada al patrimonio mundial de la UNESCO.' name='moneda8' onclick="mifoto(8)"/>
+			<img src='../imagenes/ejercicio2/España9.jpg' 
+				alt='2014. Lugares del patrimonio mundial natural o cultural de la UNESCO: Parque Güell.' name='moneda9' onclick="mifoto(9)"/>
+			<img src='../imagenes/ejercicio2/España10.jpg' 
+				alt='2014. Cambio en la jefatura del Estado.' name='moneda10' onclick="mifoto(10)"/>
+			<img src='../imagenes/ejercicio2/España11.jpg' 
+				alt='2015. Trigésimo aniversario de la bandera de la UE.' name='moneda11' onclick="mifoto(11)"/>
+			<img src='../imagenes/ejercicio2/España12.jpg' 
+				alt='2015. Lista de la UNESCO de bienes culturales y naturales Patrimonio de la Humanidad - Cueva de Altamira.' name='moneda12' onclick="mifoto(12)"/>
+			<img src='../imagenes/ejercicio2/España13.jpg' 
+				alt='2016. Lugares culturales y naturales patrimonio de la humanidad de la Unesco: Segovia.' name='moneda13' onclick="mifoto(13)"/>			
+		</div>
+	</nav> 	
+	<section>
+		<div id="principal">
+			<div id="visor">
+				<img src='../imagenes/ejercicio2/España1.jpg' 
+					alt='2005. IV centenario de la primera edición de la obra de Miguel de Cervantes «El ingenioso hidalgo don Quijote de la Mancha.' name='fotoVisor'/>
+				<div id="titulo">2005.  IV centenario de la primera edición de la obra de Miguel de Cervantes El ingenioso hidalgo don Quijote de la Mancha.</div>
+			</div>
+		</div>
+	</section>
+	<footer>
+		<div id="menu">
+			<img src='../imagenes/ejercicio2/prev.png' name='anterior' onclick="anteriorFoto()"/>
+			<img src='../imagenes/ejercicio2/next.png' name='siguiente' onclick="siguienteFoto()"/>
+		</div>
+	</footer>
+</body>
+</html>
