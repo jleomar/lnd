@@ -1,0 +1,137 @@
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<title>Lenguaje de Marcas.</title> 
+</head>
+<body>
+	<h1 align=center>PRACTICA nº 2 HTML</h1>
+	<h2 align=center>Formulario de inscripción de usuarios</h2>
+	<table align=center bgcolor= "#CECECE" border -1 width=600>
+		<tbody>
+			<tr>
+				<td align=right>Nombre completo</td>
+				<td><input type="text" name="Nombre" id="Nombre"</td>
+			</tr>
+			<tr>
+				<td align=right>Dirección</td>
+				<td><textarea rows="5" cols="40"></textarea></td>
+			</tr>
+			<tr>
+				<td align=right>Correo electrónico</td>
+				<td><input type="text" name="EMail" id="Email"</td>
+			</tr>
+			<tr>
+				<td align=right>Contraseña</td>
+				<td><input type="text" name="Contraseña" id="Contraseña"</td>
+			</tr>
+			<tr>
+				<td align=right>Confirmar contraseña</td>
+				<td><input type="text" name="ConfirmaContraseña" id="ConfirmaContraseña"</td>
+			</tr>
+			<tr>
+				<td align=right>Fecha de nacimiento</td>
+				<td>		
+					<select name="mes">
+						<option value="null">mes</option>
+						<option value="Enero">Enero</option>
+						<option value="Febrero">Febrero</option>
+						<option value="Marzo">Marzo</option>
+						<option value="Abril">Abril</option>
+						<option value="Mayo">Mayo</option>
+						<option value="Junio">Junio</option>
+						<option value="Julio">Julio</option>
+						<option value="Agosto">Agosto</option>
+						<option value="Septiembre">Septiembre</option>
+						<option value="Octubre">Octubre</option>
+						<option value="Noviembre">Noviembre</option>
+						<option value="Diciembre">Diciembre</option>
+					</select>
+					<select name="dia">
+						<option value="null">dia</option>
+						<option value="1">1</option>
+						<option value="2">2</option>
+						<option value="3">3</option>
+						<option value="4">4</option>
+						<option value="5">5</option>
+						<option value="6">6</option>
+						<option value="7">7</option>
+						<option value="8">8</option>
+						<option value="9">9</option>
+						<option value="10">10</option>
+						<option value="11">11</option>
+						<option value="12">12</option>
+						<option value="13">13</option>
+						<option value="14">14</option>
+						<option value="15">15</option>
+						<option value="16">16</option>
+						<option value="17">17</option>
+						<option value="18">18</option>
+						<option value="19">19</option>
+						<option value="20">20</option>
+						<option value="21">21</option>
+						<option value="22">22</option>
+						<option value="23">23</option>
+						<option value="24">24</option>
+						<option value="25">25</option>
+						<option value="26">26</option>
+						<option value="27">27</option>
+						<option value="28">28</option>
+						<option value="29">29</option>
+						<option value="30">30</option>
+						<option value="31">31</option>
+					</select>
+					<input type="text" name="Anno" size="4" id="Anno">
+					<label for="Nombre"> (yyyy) </label>
+				</td>
+			</tr>
+			<tr>
+				<td align=right>Sexo</td>
+				<td valign=absmiddle>
+					<input type="radio" name="Hombre" value="hombre">Hombre        
+					<input type="radio" name="Mujer" value="mujer">Mujer
+				</td>
+			</tr>
+			<tr>
+				<td align=right>Por favor elige los temas de tus intereses</td>
+				<td>
+					<dd>
+						<input type="checkbox">Ficción
+						<input type="checkbox">Terror
+					</dd>
+					<dd>
+						<input type="checkbox">Acción
+						<input type="checkbox">Comedia
+					</dd>
+					<dd>
+						<input type="checkbox">Suspense
+					</dd>
+				</td>
+			</tr>
+			<tr>
+				<td align=right>
+					<dl>
+						<dd>Selecciona tus aficiones</dd><br>
+						<dd>(Selecciona múltiples elementos pulsando la tecla Control y haciendo clicken cada uno, uno a uno)</dd>
+					</dl>
+				</td>
+				<td align=center>
+					<select name="menu" size="7" multiple="multiple" >
+						<option value="1" selected="selected">Deportes al aire libre</option>
+						<option value="2">Deportes de aventuras</option>
+						<option value="3">Musica Pop</option>
+						<option value="4">Música Rock</option>
+						<option value="5">Música Alternativa</option>
+						<option value="6">Fotografía</option>
+					</select>					
+				</td>
+			</tr>
+			<tr>
+				<td align=center colspan = "2"'>
+					<button>Enviar</button>
+					<button>Borrar</button>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</body>
+</html>
