@@ -1,0 +1,30 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+	<title>Tema 2. Tarea 3. Ejercicio 1. Tabla de multiplicar</title>
+</head>
+<body>
+	<script>	
+		function multiplica() {
+			var numero = document.getElementById("tabla").value;
+			var muestra = document.getElementById("resultado");			
+			
+			muestra.innerHTML = "<h3>Tabla de multiplicar del " + numero + " </h3>" + "<br>";			
+			if (numero != null) {
+				for (var i=1; i<=10; i++) {
+					multiplicado = "<p>" + numero + " x " + i + " = " + (numero * i) + "</p>";
+					muestra.innerHTML += multiplicado; 
+				}
+			}
+		}
+	</script>
+	<h2>Tablas de multiplicar</h2>
+	<form id="form1" name="form1">
+		Introduce la tabla a mostrar
+        <input type="text" id="tabla"/>
+		<input type="button" value="Calcula" onclick="multiplica()">		
+    </form>	
+    <div id="resultado"></div>	
+</body>
+</html>

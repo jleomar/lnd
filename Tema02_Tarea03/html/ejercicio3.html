@@ -1,0 +1,23 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+	<title>Tema 2. Tarea 3. Ejercicio 3. Formulario</title>
+</head>
+<body>
+	<h2>Formulario</h2>
+	<form id="form1" name="form1">
+		Nombre: <input type="text" id="nombre" placeholder="Nombre" onfocus="colorFoco(this)" onblur="colorBlur(this)"/><br>
+		Dirección: <input type="text" id="direccion" placeholder="Direccion" onfocus="colorFoco(this)" onblur="colorBlur(this)"/><br>
+		<input type="button" id="boton" value="Enviar"><br>		
+    </form>	
+	<script>	
+		function colorFoco(t){
+			t.style.backgroundColor = "#00BFFF"; 
+		}
+		function colorBlur(t) {
+			t.style.backgroundColor = "#B0E0E6"; 
+		}
+	</script>		
+</body>
+</html>

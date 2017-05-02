@@ -1,0 +1,32 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+	<title>Tema 2. Tarea 3. Ejercicio 2. Pregunta de tabla de multiplicar</title>
+</head>
+<body>
+	<script>	
+		function multiplica() {
+			var numero = document.getElementById("tabla").value;
+			var muestra = document.getElementById("resultado");
+			var aleatorio = Math.round(Math.random()*10);
+			
+			muestra.innerHTML = numero + " * " + aleatorio + " = ?";
+			
+			numeroRespuesta = prompt(numero + " * " + aleatorio + " = ?");
+			if (numeroRespuesta == (numero * aleatorio)) {
+				alert("CORRECTO"); 			
+			} else {
+				alert("PRUEBA OTA VEZ");
+			}
+		}
+	</script>
+	<h2>Vamos a preguntar las tablas</h2>
+	<form id="form1" name="form1">
+		<p>Introduce la tabla que te sabes</p>
+        <input type="text" id="tabla"/>
+		<input type="button" value="Calcula" onclick="multiplica()"/>	
+	</form>
+    <div id="resultado"></div>	
+</body>
+</html>

@@ -1,0 +1,16 @@
+.caja{
+    border: 2px solid black;
+	border-radius: 20px;
+	width: 200px;
+    height: 200px;
+    margin: 15px;
+    display: inline-flex;  
+    }
+#caja1{
+    background: #85c1e9; }
+#caja2{
+    background: #82e0aa;  }
+#caja3{
+    background: #e59866; }
+#caja4{
+    background: #808b96; }

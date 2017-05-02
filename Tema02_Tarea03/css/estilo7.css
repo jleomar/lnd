@@ -1,0 +1,11 @@
+#tabla{
+	margin: 20px auto;
+	width: 90%;
+	border:1px solid #000;
+	text-align:center; }
+#impar {
+	border:1px solid #000;
+	background-color: white; }
+#par {
+	border:1px solid #000;
+	background-color: lightblue; }
