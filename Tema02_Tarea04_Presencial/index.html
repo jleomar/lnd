@@ -1,0 +1,30 @@
+<!DOCTYPE html >
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+	<title>Tema 2. Tarea 4. Ejercicio 3. Lanzamiento de dado</title>
+	<link rel="stylesheet" href="css/estilo.css">	
+	<script src="js/ejercicio.js"></script>	
+</head>
+<body>
+	<section>
+		<div id="juego">
+			<div id="rotulo">Haga su apuesta</div>
+				<div class="visor">
+					<img id="uno" src="" alt='Pulse el boton' width="100px" height="100px" name='fotoDado1'/>
+				</div>	
+				<div class="visor" width="100px" height="100px">
+					<img id="dos" src="" alt='Pulse el boton' width="100px" height="100px" name='fotoDado2'/>
+				</div>
+				<div id="formulario">
+					Apuesta:
+					<form name="form1">
+						<input id="apuesta" name="apuesta" type="text" size="2" value="0" /> 
+						<input name="boton" type="button" value="Lanzar el dado" onclick="lanzamiento()"/>
+					</form>
+				</div>
+			</div>
+		</div>			
+	</section>
+</body>
+</html>

@@ -1,0 +1,25 @@
+#rotulo{
+	margin-left:3em;
+	margin-top:0.5em;
+	font-size:large; }
+
+#juego{			
+	position: absolute;
+	background-color: #04B431;
+	height: 230px;
+	width: 270px; }
+
+.visor{
+	float: left;
+	margin: 15px;
+	width: 100px;
+	height: 100px;
+	border: 2px solid blue;		
+	background-color: yellow; }
+
+#formulario {
+	position: absolute;
+	bottom: 11px;
+	margin-left:15px;
+	border: 1px	 solid blue;
+	padding: 0.5em; }
