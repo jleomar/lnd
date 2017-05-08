@@ -1,0 +1,31 @@
+<!DOCTYPE html >
+<html>
+<head>
+	<title>Monedas de Andorra</title>
+	<meta charset="UTF-8"/>
+	<link rel="stylesheet" href="../css/estilo.css">	
+	<script src="../js/monedas.js"></script>	
+</head>
+<body>
+	<h5>Monedas de 2 euros de Andorra</h5>
+	<article class="portafotos">
+		<img src='../imagenes/Andorra/Andorra1.jpg'  
+			alt='2014. 20 años en el Consejo de Europa.' name='moneda1' onclick="mifoto('Andorra', 1)"/>
+		<img src='../imagenes/Andorra/Andorra2.jpg'  
+			alt='2015. 25o aniversario de la Firma del Acuerdo Aduanero con la Unión Europea.' name='moneda2' onclick="mifoto('Andorra', 2)"/>
+		<img src='../imagenes/Andorra/Andorra3.jpg'  
+			alt='2015. 30o aniversario de la mayoría de edad y de los derechos políticos para hombres y mujeres a los 18 años.' name='moneda3' onclick="mifoto('Andorra', 3)"/>
+	</article> 	
+	<article class="visorfoto">
+		<div id="principal">
+			<div id="visor">
+				<img src='../imagenes/Andorra/Andorra1.jpg' 
+					alt='2014. 20 años en el Consejo de Europa.' name='fotoVisor'/>
+				<div id="titulo">2014. 20 años en el Consejo de Europa.</div>
+			</div>
+			<a class="prev" onclick="anteriorFoto('Andorra')">&#10094;</a>
+			<a class="next" onclick="siguienteFoto('Andorra')">&#10095;</a>
+		</div>
+	</article>
+</body>
+</html>
