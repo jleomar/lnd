@@ -1,0 +1,37 @@
+<!DOCTYPE html >
+<html>
+<head>
+	<title>Monedas de Letonia</title>
+	<meta charset="UTF-8"/>
+	<link rel="stylesheet" href="../css/estilo.css">	
+	<script src="../js/monedas.js"></script>	
+</head>
+<body>
+	<h5>Monedas de 2 euros de Letonia</h5>
+	<article class="portafotos">
+		<img src='../imagenes/Letonia/Letonia1.jpg'  
+			alt='2014. Riga — Capital Europea de la Cultura 2014.' name='moneda1' onclick="mifoto('Letonia', 1)"/>
+		<img src='../imagenes/Letonia/Letonia2.jpg'  
+			alt='2015. Trigésimo aniversario de la bandera de la UE.' name='moneda2' onclick="mifoto('Letonia', 2)"/>
+		<img src='../imagenes/Letonia/Letonia3.jpg'  
+			alt='2015. Presidencia letona del Consejo de la UE.' name='moneda3' onclick="mifoto('Letonia', 3)"/>
+		<img src='../imagenes/Letonia/Letonia4.jpg'  
+			alt='2015. Naturaleza en peligro — La Cigüeña Negra.' name='moneda4' onclick="mifoto('Letonia', 4)"/>
+		<img src='../imagenes/Letonia/Letonia5.jpg'  
+			alt='2016. Sector agrario letón.' name='moneda5' onclick="mifoto('Letonia', 5)"/>
+		<img src='../imagenes/Letonia/Letonia6.jpg'  
+			alt='2016. Vidzeme.' name='moneda6' onclick="mifoto('Letonia', 6)"/>
+	</article> 	
+	<article class="visorfoto">
+		<div id="principal">
+			<div id="visor">
+				<img src='../imagenes/Letonia/Letonia1.jpg' 
+					alt='2014. Riga — Capital Europea de la Cultura 2014.' name='fotoVisor'/>
+				<div id="titulo">2014. Riga — Capital Europea de la Cultura 2014.</div>
+			</div>
+			<a class="prev" onclick="anteriorFoto('Letonia')">&#10094;</a>
+			<a class="next" onclick="siguienteFoto('Letonia')">&#10095;</a>
+		</div>
+	</article>
+</body>
+</html>
